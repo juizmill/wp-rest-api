@@ -1,0 +1,6 @@
+# Composer files
+composer.phar
+vendor/
+tests/_reports
+.phpunit.result.cache
+.idea/

@@ -1,0 +1,30 @@
+{
+    "name": "juizmill/wp-rest-api",
+    "description": "This client provides access to the WordPress REST API",
+    "type": "php, provider, client, rest, api, wordpress",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "mockery/mockery": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesus Vieira",
+            "email": "jesusvieiradelima@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WpRestApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WpRestApiTest\\": "tests/"
+        }
+    }
+}
